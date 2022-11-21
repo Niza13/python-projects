@@ -9,9 +9,12 @@ txt = input()
 
 print("enter language of input entered")
 inpLang = input()
+inlang = inpLang.lower()
 
 print("enter language for output")
 outLang = input()
+olang = outLang.lower()
+
 
 
 # to translate [takes 2 args which are languages]
