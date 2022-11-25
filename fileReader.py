@@ -25,4 +25,4 @@ elif(split[1]==".json"):
     read =  json.load(open(fname,"r"))
     print(read)
 else:
-        print("enter a csv file only")
+        print("only for csv, pickle or json files")
